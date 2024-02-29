@@ -4,7 +4,7 @@ param (
 
 
 $ProjectName = "import_export"
-$PyPiProjectName = "wagtail_import_export"
+$PyPiProjectName = "sql_import_export"
 
 
 function IsNumeric ($Value) {
