@@ -4,6 +4,7 @@ param (
 
 
 $ProjectName = "import_export"
+$PyPiProjectName = "wagtail_import_export"
 
 
 function IsNumeric ($Value) {
@@ -142,7 +143,7 @@ Function _PYPI_DistName {
         [string]$Append = ".tar.gz"
     )
 
-    return "$ProjectName-$Version$Append"
+    return "$PyPiProjectName-$Version$Append"
 }
 
 Function PYPI_Build {
